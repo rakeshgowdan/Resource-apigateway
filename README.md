@@ -31,3 +31,28 @@ Here are some of the uses of AG:
 𝗖𝗶𝗿𝗰𝘂𝗶𝘁 𝗯𝗿𝗲𝗮𝗸𝗲𝗿: AG can be used to implement circuit breaker patterns, which can help to protect against cascading failures and improve the resilience of your system.
 
 𝗔𝗣𝗜 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗶𝗻𝗴: AG can be used to implement API versioning, allowing you to maintain multiple versions of an API and manage the transition from one version to another.
+
+------------------------------------------------------------------------------------------------------------------------
+
+![image](https://github.com/rakeshgowdan/Resource-apigateway/assets/41374671/9f1b3951-ba74-48b2-842b-2c5449337d9b)
+
+The Main Function of an API Gateway!
+An API gateway that takes an application user’s request, routes it to one or more backend services, gathers the appropriate data and delivers it to the user in a single, combined package. It also provides analytics, protection against threats and other security for the application.
+
+The primary role of an API Gateway is to act as a single entry point and standardized process for interactions between an organization’s apps, data and services and internal and external customers.
+
+How does an API Gateway work?
+APIs allow separate applications to communicate with each other and exchange data within and outside the architecture. The API gateway provides a central focal point and standard interface to perform these exchange activities. It receives requests from internal and external sources, called “API calls,” and packages these multiple requests, routes them to the appropriate API or APIs, and then delivers the responses to the particular user or device that made the request.
+
+![image](https://github.com/rakeshgowdan/Resource-apigateway/assets/41374671/8890379d-9b4e-4c69-997a-38af0e022f8e)
+
+Other Functions that API Gateways handle!
+Other important functions related to Microservices that API gateways often handle include,
+
+Protocol translation
+Service discovery for identifying the location of service instances.
+Building basic business logic within each service
+Authentication and security policy enforcements
+Stabilization and load balancing
+Cache management
+Monitoring, logging and analytics
